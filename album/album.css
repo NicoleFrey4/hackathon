@@ -33,21 +33,30 @@ body {
   margin-bottom: 0;
 }
 
+
+.jumbotron form {
+  margin-bottom: 20px
+}
+
 .jumbotron h1 {
   color: #fff;
   font-weight: bold;
   font-size:60px;
   margin: 30px;
+  text-shadow: 2px 2px 4px #00000063;
 }
 
 .jumbotron .container {
   max-width: 80rem;
+  margin-top: 5rem;
   padding: 0;
 }
 
 .jumbotron .btn-secondary {
+  margin-top: 10px;
   background-color: #FF934F;
   border-color: #FF934F;
+  box-shadow: 2px 2px 4px #00000063;
 }
 
 footer {

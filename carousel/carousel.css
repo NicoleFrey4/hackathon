@@ -9,6 +9,56 @@ body {
 }
 
 
+.navbar {
+  background-color: white;
+  position: fixed; 
+  width: 100%;
+  z-index: 1000;
+  top:0;
+}
+
+.navbar img{
+  height: 80px;
+}
+
+.navbar .navlink {
+  color: #FF934F;
+  font-size:20px;
+  padding-top:20px;
+}
+
+.jumbotron {
+  padding-top: 100px;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+  background-color: #0000004f;
+}
+
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+
+.jumbotron h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size:60px;
+  margin: 30px;
+}
+
+.jumbotron .container {
+  max-width: 80rem;
+  padding: 0;
+}
+
+.jumbotron .btn-secondary {
+  background-color: #FF934F;
+  border-color: #FF934F;
+  box-shadow: 2px 2px 4px #00000063;
+}
+
+
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
