@@ -6,6 +6,9 @@ body {
 
 .navbar {
   background-color: white;
+  position: fixed; 
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar img{
@@ -19,7 +22,7 @@ body {
 }
 
 .jumbotron {
-  padding-top: 2rem;
+  padding-top: 100px;
   padding-bottom: 2rem;
   margin-bottom: 0;
   background-color: #0000004f;
